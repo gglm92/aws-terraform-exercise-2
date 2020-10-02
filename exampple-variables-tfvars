@@ -1,0 +1,19 @@
+aws_region = "us-east-1"
+aws_access_key = "YOUR_AWS_ACCESS_KEY"
+aws_secret_key = "YOUR_AWS_SECRET_KEY"
+
+environment = "production"
+
+key_name = "production_key"
+
+vpc_cidr_block = "13.0.0.0/16"
+private_subnet_1_cidr_block = "13.0.1.0/24" 
+private_subnet_2_cidr_block = "13.0.2.0/24"
+public_subnet_1_cidr_block = "13.0.3.0/24" 
+public_subnet_2_cidr_block = "13.0.4.0/24"
+availability_zone_1 = "us-east-1a"
+availability_zone_2 = "us-east-1b"
+
+
+instance_ami = "ami-09d8b5222f2b93bf0"
+instance_type = "t2.micro"
